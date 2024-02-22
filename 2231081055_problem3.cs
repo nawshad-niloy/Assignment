@@ -13,6 +13,10 @@ namespace problem
            for(int i = n;i >= 0; i--)
            {
                 Console.Write(i + " ");
+                if (i != 0)
+                {
+                Console.Write(" ");
+                }
            }
         }
     }
